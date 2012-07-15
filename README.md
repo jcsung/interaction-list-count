@@ -24,20 +24,20 @@ NOTE: FIELD file MUST contain the interactions in the following order:
 
 Also, this assumes that the ATOM section of the FIELD file lists every atom.
 If the ATOM section of your FIELD file is something like this:
-ATOM 8
-C  12.011  1.2  2
-H   1.008 -0.4  6
+   ATOM 8
+   C  12.011  1.2  2
+   H   1.008 -0.4  6
 
 instead of like this:
-ATOM 8
-C  12.011  1.2  1
-C  12.011  1.2  1
-H   1.008 -0.4  1
-H   1.008 -0.4  1
-H   1.008 -0.4  1
-H   1.008 -0.4  1
-H   1.008 -0.4  1
-H   1.008 -0.4  1
+   ATOM 8
+   C  12.011  1.2  1
+   C  12.011  1.2  1
+   H   1.008 -0.4  1
+   H   1.008 -0.4  1
+   H   1.008 -0.4  1
+   H   1.008 -0.4  1
+   H   1.008 -0.4  1
+   H   1.008 -0.4  1
 
 this script will not work correctly.
 
